@@ -14,8 +14,8 @@ body {
 }
 
 .menu {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: block;
     position: static;
     height: 100vh;  /* To fill whole screen if necessary, but can be wasteful if menu content does not */
@@ -23,10 +23,11 @@ body {
     background-color: #111;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
     .menu {
-	margin-top: 0;
-	margin-bottom: 0;
+	padding-top: 0;
+	
+	padding-bottom: 0;
         display: block;
         position: fixed;
 	width: 250px;
@@ -42,7 +43,7 @@ body {
 	height: 100vh; /* Take the full height of the viewport */
 	width: 100vw;
 	overflow-y: auto; /* Scrollable */
-        margin-right: 220px; /* Make space for the menu */
+        margin-right: 250px; /* Make space for the menu */
 	background-color: #111;
     }
 
