@@ -4,8 +4,9 @@ body {
     font-family: sans-serif;
     text-transform: uppercase;
     color:white;
-    font-size: 15px;
+    font-size: 13px;
     letter-spacing: 2.5px;
+}
     
 ul {
   list-style-type: none;
