@@ -5,6 +5,8 @@ First it was a huge detour into figuring out how to convert .mov files to .avif 
 The official Github for the foundation behind AVIF turned out to be most useful:
 [https://github.com/AOMediaCodec/libavif/wiki/Sequences](https://github.com/AOMediaCodec/libavif/wiki/Sequences)
 
+Then it turned out Cargocollective have revamped their website such that their old hosting service is no longer maintained, and unfortunately rejects anything that is not a `.gif`.
+
 Then I tried downloading a copy of all the pages of [https://cargocollective.com/memberofthepublic](https://cargocollective.com/memberofthepublic) and simply changing the links (using a script that calls `sed` and `grep`).
 ...but then the scroll bar was inexplicably broken, and much of the content didn't display properly, and the site's code was far to overcomplicated to actually fix this.
 
