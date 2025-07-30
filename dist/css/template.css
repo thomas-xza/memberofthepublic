@@ -18,7 +18,7 @@ body {
     position: static;
     height: 100vh;  /* To fill whole screen if necessary, but can be wasteful if menu content does not */
     width: 100vw;
-    background-color: #000;
+    background-color: #222;
 }
 
 @media (min-width: 1280px) {
@@ -30,6 +30,7 @@ body {
         right: 0;
         height: 100vh;
         overflow-y: auto;
+	background-color: #000;
     }
 
     .content {
@@ -38,6 +39,7 @@ body {
     width: 100vw;
     overflow-y: auto; /* Scrollable */
         margin-right: 220px; /* Make space for the menu */
+    background-color: #222;
     }
 
 }

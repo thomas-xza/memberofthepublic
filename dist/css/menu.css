@@ -26,9 +26,8 @@ a:hover {
 }
 
 a, a:hover, a:active, a:visited, a:link {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
-    border-bottom: 1px #fff dotted;
 }
 
 
