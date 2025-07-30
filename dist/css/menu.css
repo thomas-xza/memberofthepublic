@@ -30,3 +30,24 @@ a, a:hover, a:active, a:visited, a:link {
     color: white;
     border-bottom: 1px #fff dotted;
 }
+
+
+.fullsize {
+    display: none;
+}
+
+.mobile {
+    display: block;
+}
+
+@media (min-width: 1280px) {
+
+.fullsize {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+}
+

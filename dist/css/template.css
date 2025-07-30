@@ -10,9 +10,7 @@ body {
 }
 
 .content {
-    height: 100vh;  /* To fill whole screen if necessary, but can be wasteful if menu content does not */
-    width: 100vw;
-    overflow-y: auto; /* Scrollable */
+    display:none;
 }
 
 .menu {
@@ -36,6 +34,7 @@ body {
 
     .content {
     height: 100vh; /* Take the full height of the viewport */
+    width: 100vw;
     overflow-y: auto; /* Scrollable */
         margin-right: 220px; /* Make space for the menu */
     }
