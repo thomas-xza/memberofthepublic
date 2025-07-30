@@ -40,7 +40,9 @@ a, a:hover, a:active, a:visited, a:link {
     display: block;
 }
 
-@media (min-width: 1280px) {
+/*  When the template detects the monitor width is large enough, it sets the menu width to exactly 250px, then the monitor mode is triggered  */
+
+@media (width: 250px) {
 
 .fullsize {
     display: block;
