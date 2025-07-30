@@ -16,7 +16,7 @@ li {
     margin-bottom: 10px;
 }
 
-img {
+img, iframe.video {
   max-width: 100%;
   height: auto;
 }
