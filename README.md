@@ -24,7 +24,7 @@ And at the point of writing this, it is now just a matter of getting the content
 I wasn't entirely sure if Cargocollective will really exist forevermore, so prefer to lean on big tech nowadays.<br>
 Target is currently Cloudflare Pages and Google Firebase.
 
-With a bit of money-patching (a few `.nojekyll` files for Github Pages, a few CLI commands for Google Firebase, and a few pointers on the Cloudflare Pages website), was able to get this site running across 3 hosts with ease.
+With a bit of money-patching (a few pointers on the Cloudflare Pages website during setup, a few `.nojekyll` files for Github Pages and a symlink from the `/docs` dir to Cloudflare's `/dist` dir, and a few CLI commands for Google Firebase), was able to get this site running across 3 hosts with ease.
 
 - Hosted on Github Pages at https://thomas-xza.github.io/memberofthepublic/
 
