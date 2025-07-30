@@ -11,7 +11,8 @@ body {
 
 .content {
     padding: 20px;
-    height: 100%; /* Take the full height of the viewport */
+    height: 100vh;  /* To fill whole screen if necessary, but can be wasteful if menu content does not */
+    width: 100vw;
     overflow-y: auto; /* Scrollable */
 }
 
