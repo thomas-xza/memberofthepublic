@@ -19,6 +19,9 @@ li {
 
 img, iframe.video {
   max-width: 100%;
+}
+
+img {
   height: auto;
 }
 
