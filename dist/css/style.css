@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    padding-left: 25px;
+    padding-left: 10px;
     padding-top: 0.5em;
     padding-bottom: 3em;
     font-family: Arial, sans-serif;
@@ -16,6 +16,11 @@ li {
     margin-bottom: 10px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 a:hover {
     color: #0F0;
 }
@@ -24,4 +29,12 @@ a, a:hover, a:active, a:visited, a:link {
     border-bottom: 1px dotted #ff0;
     text-decoration: none;
     color: white;
+}
+
+
+@media (min-width: 800px) {
+    body {
+	padding-left: 25px;
+    }
+
 }
