@@ -33,6 +33,7 @@ body {
     }
 
     .content {
+	display: block;
     height: 100vh; /* Take the full height of the viewport */
     width: 100vw;
     overflow-y: auto; /* Scrollable */
