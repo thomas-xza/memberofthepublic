@@ -15,10 +15,13 @@ ul {
 li {
     margin-bottom: 10px;
 }
-a {
+
+a:hover {
+    color: #0F0;
+}
+
+a, a:hover, a:active, a:visited, a:link {
+    border-bottom: 1px dotted #ff0;
     text-decoration: none;
     color: white;
-}
-a:hover {
-    color: #0056b3;
 }
