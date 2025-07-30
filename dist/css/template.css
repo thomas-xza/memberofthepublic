@@ -10,7 +10,6 @@ body {
 }
 
 .content {
-    padding: 20px;
     height: 100vh;  /* To fill whole screen if necessary, but can be wasteful if menu content does not */
     width: 100vw;
     overflow-y: auto; /* Scrollable */
@@ -19,7 +18,6 @@ body {
 .menu {
     display: block;
     position: static;
-    padding: 20px;
     height: 100vh;  /* To fill whole screen if necessary, but can be wasteful if menu content does not */
     width: 100vw;
     background-color: #f0f0f0;
@@ -37,7 +35,6 @@ body {
     }
 
     .content {
-    padding: 20px;
     height: 100vh; /* Take the full height of the viewport */
     overflow-y: auto; /* Scrollable */
         margin-right: 220px; /* Make space for the menu */
