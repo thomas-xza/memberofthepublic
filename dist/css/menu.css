@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 27.5px;
     font-family: sans-serif;
     text-transform: uppercase;
     color:white;
@@ -16,11 +16,12 @@ h3 {
     font-size: 15px;
     font-weight: 900;
     font-style: italic;
+    padding-bottom: 1.5em;
 }
 
 li {
 
-    padding-left:25px:
+    padding-left:50px:
     padding-top: 1em;
     padding-bottom: 2em;
 }
@@ -29,7 +30,7 @@ img {
     padding-bottom: 0.5em;
 }
 a:hover {
-    color: #0056b3;
+    color: #0F0;
 }
 
 a, a:hover, a:active, a:visited, a:link {
@@ -77,5 +78,7 @@ a {
     color: white;
 }
 a:hover {
-    color: #0056b3;
+    color: #FC8;
 }
+
+
