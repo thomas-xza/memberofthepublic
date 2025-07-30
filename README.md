@@ -23,3 +23,11 @@ I hadn't written CSS for a while but fortunately had retained some rudimentary k
 And at the point of writing this, it is now just a matter of getting the content to migrate from Github to a long-term, reliable (i.e. well funded, established company) hosting provider, automatically.
 I wasn't entirely sure if Cargocollective will really exist forevermore, so prefer to lean on big tech nowadays.<br>
 Target is currently Cloudflare Pages and Google Firebase.
+
+With a bit of money-patching (a few `.nojekyll` files for Github Pages, a few CLI commands for Google Firebase, and a few pointers on the Cloudflare Pages website), was able to get this site running across 3 hosts with ease.
+
+- Hosted on Github Pages at https://thomas-xza.github.io/memberofthepublic/
+
+- Hosted on Cloudflare Workers at https://memberofthepublic.meta-997.workers.dev/
+
+- Hosted on Google Firebase at https://memberofthepublic.web.app/ (no automatic updates, as Firebase wanted full rw access to all repos, unlike Cloudflare) 
